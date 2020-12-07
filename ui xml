@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/event"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_wedding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wedding hotel"
+    />
+    <Button
+        android:id="@+id/btn_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restruant"
+        />
+    <Button
+        android:id="@+id/btn_tent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tent Service "
+        />
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        />
+    <Button
+        android:id="@+id/btn_bud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budget"
+        />
+    <Button
+        android:id="@+id/btn_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gmail"
+        />
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        />
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        />
+    <Button
+        android:id="@+id/btn_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        />
+    <Button
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ads"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="134"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3291478411071467/3153089444">
+    </com.google.android.gms.ads.AdView>
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ad_view2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3291478411071467/5926414835"/>
+
+
+
+</LinearLayout>
