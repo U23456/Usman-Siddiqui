@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eventplanner">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.Mapsconti"
+            android:label="@string/title_activity_mapsconti"></activity>
+        <activity
+            android:name="com.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.locpof"
+            android:label="@string/title_activity_locpof" />
+        <activity android:name="com.showads" />
+        <activity android:name="com.Rewarded" />
+        <activity android:name="com.Payment" />
+        <activity android:name="com.Margala" />
+        <activity android:name="com.Gmail" />
+        <activity android:name="com.wahconti" />
+        <activity android:name="com.Phone" />
+        <activity android:name="com.Budget" />
+        <activity android:name="com.Location" />
+
+        <meta-data
+            android:name="com.google.android.geo.API.KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name="com.serina" />
+        <activity android:name="com.Movenpick" />
+        <activity android:name="com.Topaz" />
+        <activity android:name="com.ordanance" />
+        <activity android:name="com.Marhaba" />
+        <activity android:name="com.marriet" />
+        <activity android:name="com.Continantal" />
+        <activity android:name="com.Pof" />
+        <activity android:name="com.wedding" />
+        <activity android:name="com.UI" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

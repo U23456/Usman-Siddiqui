@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ADMOB_UNIT_ID">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="title_activity_locpof">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapsconti">Map</string>
+</resources>
